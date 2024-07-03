@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url("../../assets/fondo1.jpg");
+  background-size: cover; }
+
+.home h1 {
+  color: white;
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+  font-size: 50px;
+  font-weight: bold; }
+
+.home img {
+  max-width: 5%; }
+
+.papa {
+  display: inline-flex;
+  flex-wrap: wrap; }
+
+.card {
+  display: flex;
+  border: 2px #002fa6 solid;
+  background-color: #242428;
+  box-shadow: 5px 5px 5px #101010;
+  color: white;
+  margin-top: 7%;
+  margin-left: 10%; }
+
+.hijos-icon {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-left: 2%;
+  max-width: 12%;
+  transition: all 0.3s ease; }
+
+.hijos-icon:hover {
+  transform: scale(1.2); }
+
+@media only screen and (max-width: 720px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; }
+
+  .home h1 {
+    margin-right: 10%; }
+
+  .hijo {
+    margin-right: 10%; } }
+
+/*# sourceMappingURL=global.css.map */

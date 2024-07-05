@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
     <!-- META TAGS -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -15,6 +16,11 @@
     <link href="./styles/css/global.css" type="text/css" rel="stylesheet">
     <link href="./styles/css/glow.css" type="text/css" rel="stylesheet">
 
+    <!-- Vanta -->
+    <script src="./vanta.js/three.min.js" defer></script>
+    <script src="./vanta.js/vanta.halo.min.js" defer></script>
+    <script src="./vanta.js/main-vanta.js" defer></script>
+
     <!-- FUENTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,12 +29,38 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <main>
+    <div class="body">
+        <section>
+            <!-- Skills -->
+            <div class="home">
+                <h1> Habilidades </h1>
+                <h2> Cuento con Habilidades en los siguientes lenguajes/tecnologias: </h2>
+                
+                <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white"> Frontend </h2>
+                <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+                    <li> <img src="./assets/iconos/HTMLICON.png" class="icon"> </li>
+                    <li> <img src="./assets/iconos/CSSICON.png" class="icon"> </li>
+                    <li> <img src="./assets/iconos/SASSICON.png" class="icon"> </li>
+                    <li> <img src="./assets/iconos/BSICON.png" class="icon"> </li>
+                    <li> <img src="./assets/iconos/TWICON.png" class="icon"> </li>
+                    <li> <img src="./assets/iconos/JSICON.png" class="icon"> </li>
+                </ul>
+
+                <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white"> Backend: </h2>
+                <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+                    <li> <img src="./assets/iconos/JSICON.png" class="icon"> </li>
+                    <li> <img src="./assets/iconos/PythonICOn.png" class="icon"> </li>
+                    <li> <img src="./assets/iconos/C++ICOn.png" class="icon"> </li>
+                </ul>
+
+            </div>
+            <!-- Skills -->
+        </section>
+
         <!-- Cartas de proyectos -->
         <div class="home">
             <h1> Proyectos </h1>
         </div>
-
 
         <section class="papa"> 
             <article class="hijo button-glow">
@@ -42,18 +74,16 @@
                     </div>
                     <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-2"> Tecnologias utilizadas </div>
-                        <img src="./assets/PSICON.png" class="hijos-icon"> 
-                        <img src="./assets/HTMLICON.png" class="hijos-icon"> 
-                        <img src="./assets/CSSICON.png" class="hijos-icon"> 
-                        <img src="./assets/SASSICON.png" class="hijos-icon"> 
-                        <img src="./assets/BSICON.png" class="hijos-icon"> 
-                        <img src="./assets/JSICON.png" class="hijos-icon"> 
+                        <img src="./assets//iconos/PSICON.png" class="icon"> 
+                        <img src="./assets/iconos/HTMLICON.png" class="icon"> 
+                        <img src="./assets/iconos/CSSICON.png" class="icon"> 
+                        <img src="./assets/iconos/SASSICON.png" class="icon"> 
+                        <img src="./assets/iconos/BSICON.png" class="icon"> 
+                        <img src="./assets/iconos/JSICON.png" class="icon"> 
                     </div>
                 </div>
             </article>
         </section>
-
-        <!-- Cartas de presentacion -->
-    </main>
+    </div>
 </body>
 </html>

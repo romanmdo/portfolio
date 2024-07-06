@@ -1,0 +1,25 @@
+/* Cartas de proyectos */
+.papa {
+  display: inline-flex;
+  flex-wrap: wrap; }
+
+.card {
+  display: flex;
+  border: 2px #002fa6 solid;
+  background-color: #242428;
+  box-shadow: 5px 5px 5px #101010;
+  color: white;
+  margin: 5%;
+  margin-left: 10%; }
+
+.icon {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-left: 2%;
+  max-width: 12%;
+  transition: all 0.3s ease; }
+
+.icon:hover {
+  transform: scale(1.2); }
+
+/*# sourceMappingURL=cards.css.map */

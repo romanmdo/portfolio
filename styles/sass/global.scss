@@ -12,7 +12,7 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 
 body {
@@ -22,66 +22,7 @@ body {
     overflow-x: hidden;
 }
 
-.home h1 {
-    color: white;
-    margin-top: 1.5%; 
-    margin-left: 2%; 
-    font-size: 50px;   
-    font-weight: bold;
-}
-
-.home h2 {
-    color: white;
-    margin-left: 2%; 
-    font-size: 20px;   
-    font-weight: bold;
-}
-
-.home ul{
-
-    margin-left: 2%;
-
-}
-
-.home ul li{
-    display: inline-flex;
-
-    font-size: 15px;   
-    font-weight: bold;
-    margin-left: 2%;
-}
-
-.home img {
-    max-width: 5%;
-}
-
-.papa {
-    display: inline-flex;
-    flex-wrap: wrap; 
-}
-
-.card {
-    display: flex;
-    border: 2px #002fa6 solid;
-    background-color: #242428;
-    box-shadow: 5px 5px 5px rgb(16, 16, 16);
-    color: white;
-    margin: 5%;
-    margin-left: 10%;
-}
-
-.icon {
-    display: inline-flex;
-    flex-wrap: wrap;
-    margin-left: 2%; 
-    max-width: 12%;
-    transition: all 0.3s ease;
-}
-
-.icon:hover {
-    transform: scale(1.2);  
-}
-
+/* Responsive adjustments */
 @media only screen and (max-width: 720px) {
     body {
         margin: 0;
@@ -89,6 +30,10 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
+    }
+
+    .skills-container {
+        flex-direction: column;
     }
 
     .home h1 {

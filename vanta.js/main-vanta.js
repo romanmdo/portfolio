@@ -13,5 +13,5 @@ window.addEventListener('DOMContentLoaded', () => {
         blurFactor: 0.23,
         speed: 0.40,
         zoom: 0.40
-    })
+    });
 });

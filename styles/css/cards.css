@@ -1,14 +1,34 @@
 /* Cartas de proyectos */
+.home-card h1 {
+  color: white;
+  margin-top: 1.5%;
+  margin-left: 2%;
+  font-size: 50px;
+  font-weight: bold; }
+
+.home-card h2 {
+  color: #bfbfbf;
+  margin-left: 2%;
+  font-size: 20px;
+  font-weight: bold; }
+
+.text {
+  color: white;
+  margin-top: 1.5%;
+  margin-left: 2%;
+  font-size: 50px;
+  font-weight: bold; }
+
 .papa {
   display: inline-flex;
   flex-wrap: wrap; }
 
 .card {
   display: flex;
-  border: 2px #002fa6 solid;
   background-color: #242428;
-  box-shadow: 5px 5px 5px #101010;
-  color: white;
+  border: 1px solid #ddd;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #bfbfbf;
   margin: 5%;
   margin-left: 10%; }
 

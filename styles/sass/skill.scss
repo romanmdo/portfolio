@@ -1,6 +1,6 @@
 /* SKILLS */
 
-.home-card h1, .home-ski h1 {
+.home-ski h1{
     color: white;
     margin-top: 1.5%; 
     margin-left: 2%; 
@@ -8,8 +8,8 @@
     font-weight: bold;
 }
 
-.home-card h2, .home-ski h2  {
-    color: white;
+.home-ski h2 {
+    color: #bfbfbf;
     margin-left: 2%; 
     font-size: 20px;   
     font-weight: bold;
@@ -41,7 +41,7 @@
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
 }
 
@@ -51,13 +51,34 @@
 }
 
 .skills-section img{
+    max-width: 100px;
+    height: 50px;
+    object-fit: cover; 
+
     display: inline-flex;
     flex-wrap: wrap;
     margin-left: 2%; 
-    max-width: 12%;
     transition: all 0.3s ease;
 }
 
 .skills-section img:hover {
     transform: scale(1.2);  
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 720px) {
+    .skills-section ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .skills-section {
+        flex: 1;
+        border: 1px solid #ddd;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+    }
 }
